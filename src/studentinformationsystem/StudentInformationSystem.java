@@ -1,20 +1,38 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package studentinformationsystem;
+/******************************************************************************* 
+ * Author: Muhammad Aqil Danish bin Yusoff 
+ * Program Name: StudentInformationSystem
+ * Description: To do the GitHub
+ * Date: 28 October 2026 
+ * Modified Date: None 
+ * Version: 1.0 
+ *******************************************************************************/ 
+package studentinformationsystem; // Declare the package name
 
-/**
- *
- * @author Aqil Danish
- */
+// Declare the public class 
 public class StudentInformationSystem {
 
-    /**
-     * @param args the command line arguments
-     */
+    // Declare the main method 
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+        
+        //Display the string text 
+        System.out.println("Name: Muhammad Aqil Danish bin Yusoff ");
+        System.out.println("Student ID: S87290");
+        
+        int mark1 = 20, mark2 = 70;
+        int total = mark1 + mark2; 
+        System.out.println("Total mark: " + total);
+        
+        if (total >= 80){
+            System.out.println("Result: Excellent");
+        }else if (total >= 50){
+            System.out.println("Result: Good");
+        }else {
+            System.out.println("Need More Improvement!");
+            
+          
+        }
+                
+                
+    } 
     
 }
