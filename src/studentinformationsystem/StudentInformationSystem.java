@@ -18,15 +18,21 @@ public class StudentInformationSystem {
         System.out.println("Name: Muhammad Aqil Danish bin Yusoff ");
         System.out.println("Student ID: S87290");
         
+        // Put the mark
         int mark1 = 20, mark2 = 70;
+        // Calculate total mark
         int total = mark1 + mark2; 
-        System.out.println("Total mark: " + total);
+        System.out.println("Total mark: " + total); // Display total mark
         
+        // Check if the total mark excellent or not 
         if (total >= 80){
+            // Display Excellent result
             System.out.println("Result: Excellent");
         }else if (total >= 50){
+            // Display good result 
             System.out.println("Result: Good");
         }else {
+            // Display result 
             System.out.println("Need More Improvement!");
             
           
